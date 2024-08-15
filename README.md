@@ -38,11 +38,11 @@ This project demonstrates how to set up a simple architecture using AWS EC2 inst
 	apt update
 	```
 	 
-	```bash
+   	```bash
 	apt-get install nginx -y
 	```
 	
-	```bash
+   	```bash
 	systemctl enable nginx
 	```
 	
