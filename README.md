@@ -118,17 +118,15 @@ This project demonstrates how to set up a simple architecture using AWS EC2 inst
 		try_files $uri $uri/ =404;
 	    }
 	}
-	```
+
 	
 	press CRTL+x and then y
 	
   4. **Execute the commands**
  
 	ln -s /etc/nginx/sites-available/website.conf /etc/nginx/sites-enabled/
-	```
 	
 	systemctl reload nginx	
-	```
 	
 ## Configure Nginx to distribute requests to the backend instances (add your backend instance IP addresses):
 
