@@ -95,25 +95,16 @@ This project demonstrates how to set up a simple architecture using AWS EC2 inst
  	
   3. **Configure the Nginx server and run the following commands 1 by 1**
 
-	```bash
 	cd
-	``` 
 
-	```bash
 	cd/
-	```
 	
-	```bash
 	cd etc/nginx/sites-available
-	```
 	 
-	```bash
 	nano lb.conf
-	```
 	
   Now write the following code in the lb.conf
   
-	```bash
 	server {
 	    listen 80;
 	    listen [::]:80;
@@ -133,11 +124,9 @@ This project demonstrates how to set up a simple architecture using AWS EC2 inst
 	
   4. **Execute the commands**
  
-	```bash
 	ln -s /etc/nginx/sites-available/website.conf /etc/nginx/sites-enabled/
 	```
 	
-	```bash
 	systemctl reload nginx	
 	```
 	
